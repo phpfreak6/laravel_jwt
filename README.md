@@ -1,15 +1,14 @@
 # laravel_jwt
 
-Step 1 : Projet installed 
-Step 2 : Create Database on local
-Step 3: Setup for env file and mentioned Database Name:
-Step 4 : Create Migration & Model for Products Table
-Step 5 : Run migration 
-Step 6 : Import Postman Collection
+Step 1 : Clone code using git  
+Step 2 : Create Database on local by name test_jwt
+Step 3: Setup env file and update the database Name and credentials:
+Step 4 : Run Migrations
+Step 5 : Import Postman Collection
 
 
 #############################################
-API's
+API's Created
 
 
 Register Api 
@@ -24,12 +23,12 @@ Delete Product
 ############################################
 
 Register api :
-we are register the first user:
+We are registring the first user:
 
 Login Api
 
 Login for registered User, it will return access token,
-without access token we can not login or any other action
+Once logged in , Access token will be created that has to be used for furture CRUD actions on products api
 access token is required for every action
 
 #####################################################
